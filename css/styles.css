@@ -13,9 +13,15 @@ body {
 }
 
 .top-nav {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-style: solid;
-  border-color: red;
   display: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
 }
 
 #hamburger-menu {
@@ -38,8 +44,12 @@ body {
 }
 
 .top-nav ul {
+  background-color: var(--color-dark);
+  text-align: center;
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 0px;
+  margin-top: 50px;
 }
 
 .top-nav ul li {
@@ -57,6 +67,8 @@ body {
   display: flex;
   gap: 5px;
   align-items: center;
+  justify-content: center;
+  padding-left: 15px;
 }
 
 .github__img {
