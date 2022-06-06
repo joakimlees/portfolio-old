@@ -49,6 +49,7 @@
   flex-direction: column;
   align-items: center;
   margin: 15px 15px 75px;
+  max-width: 400px;
 }
 
 .about-me__text {
@@ -61,7 +62,7 @@
 }
 
 .about-me__img-wrapper {
-  width: 200px;
+  width: 300px;
 }
 
 .about-me__img-wrapper img {

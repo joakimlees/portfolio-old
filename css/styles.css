@@ -127,7 +127,7 @@ p {
 .main-home {
   background-color: var(--color-dark);
   flex-grow: 1;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0px auto;
 }
 
@@ -187,4 +187,6 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  max-width: 1000px;
+  margin: 0px auto;
 }
