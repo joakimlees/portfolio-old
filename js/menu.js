@@ -11,3 +11,15 @@ menuCloser.addEventListener("click", function () {
   topNav.style.display = "none";
   menu.style.display = "flex";
 });
+
+let showNav = matchMedia("( min-width: 800px)");
+
+showNav.addEventListener("change", function () {
+  if (!showNav.matches) {
+    topNav.style.display = "none";
+    menu.style.display = "flex";
+  }
+  if (showNav.matches) {
+    topNav.style.display = "block";
+  }
+});

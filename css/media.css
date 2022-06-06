@@ -1,0 +1,22 @@
+@media (min-width: 800px) {
+  .top-nav {
+    position: static;
+    display: block;
+    transform: none;
+  }
+
+  .top-nav ul {
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-style: none;
+  }
+
+  .top-nav ul li {
+    font-size: 1.3rem;
+  }
+
+  .menu-closer,
+  .menu {
+    display: none;
+  }
+}
