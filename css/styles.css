@@ -133,6 +133,11 @@ p {
   margin: 0px auto;
 }
 
+.main-about,
+.main-projects {
+  padding: 15px;
+}
+
 /* links and buttons */
 
 .cta {
