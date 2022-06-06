@@ -3,6 +3,7 @@
     position: static;
     display: block;
     transform: none;
+    height: 10%;
   }
 
   .top-nav ul {
