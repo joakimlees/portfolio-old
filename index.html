@@ -12,9 +12,13 @@
   </head>
   <body>
     <div class="site-container">
-      <label class="menu-label" for="hamburger-menu"><img src="/icons/menu-icon.png" alt="menu icon" /></label>
-      <input type="checkbox" id="hamburger-menu" />
+      <div class="menu">
+        <img class="menu__img" src="/icons/menu-icon.png" alt="menu icon" />
+      </div>
       <nav class="top-nav">
+        <div class="menu-closer">
+          <img class="menu-closer__img" src="/icons/close-icon.png" alt="close navigation icon" />
+        </div>
         <ul>
           <li><a href="#">Projects</a></li>
           <li><a href="#">CV</a></li>
@@ -32,5 +36,6 @@
       <main class="main-home">This is main</main>
       <footer>This is footer</footer>
     </div>
+    <script src="/js/menu.js"></script>
   </body>
 </html>

@@ -24,36 +24,44 @@ body {
   height: 100%;
 }
 
-#hamburger-menu {
-  display: none;
-}
-
-#hamburger-menu:checked ~ .top-nav {
-  display: block;
-}
-
-.menu-label {
-  margin: 15px;
+.menu,
+.menu-closer {
+  margin: 15px 15px 0px 0px;
   display: flex;
   justify-content: flex-end;
 }
 
-.menu-label img {
+.menu-closer {
+  margin-bottom: 15px;
+}
+
+.menu__img,
+.menu-closer__img {
+  cursor: pointer;
   height: 100%;
+}
+
+.menu__img {
   width: 60px;
+}
+
+.menu-closer__img {
+  width: 45px;
 }
 
 .top-nav ul {
   background-color: var(--color-dark);
   text-align: center;
   display: flex;
+  gap: 5px;
   flex-direction: column;
-  padding: 0px;
-  margin-top: 50px;
+  padding: 25px 0px;
+  margin: 0px;
 }
 
 .top-nav ul li {
   font-family: var(--text-heading);
+  font-size: 1.75rem;
   font-weight: 700;
   list-style: none;
 }
@@ -63,12 +71,16 @@ body {
   text-decoration: none;
 }
 
+.top-nav a:hover {
+  text-decoration: underline;
+}
+
 .github {
   display: flex;
-  gap: 5px;
-  align-items: center;
+  gap: 10px;
+  align-items: baseline;
   justify-content: center;
-  padding-left: 15px;
+  padding-left: 20px;
 }
 
 .github__img {
