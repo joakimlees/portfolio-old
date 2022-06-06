@@ -41,6 +41,11 @@ p {
   color: var(--color-white);
 }
 
+.main-projects p,
+.main-about p {
+  color: var(--color-coral);
+}
+
 /* top navigation */
 
 .top-nav {
