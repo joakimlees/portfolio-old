@@ -109,6 +109,7 @@ body {
 .home-header {
   background-color: var(--color-purple);
   margin-top: 15px;
+  padding: 10px 0px 25px;
 }
 
 .home-header h1 {
@@ -140,12 +141,14 @@ body {
 }
 
 .header__cta-wrapper {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   gap: 15px;
 }
 
 .cta {
+  font-weight: 400;
   text-align: center;
   color: var(--color-black);
   text-decoration: none;
@@ -173,6 +176,30 @@ body {
   border-style: solid;
   border-color: green;
   flex-grow: 1;
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+/* about me section*/
+
+.home__about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.about-me__text h2 {
+  color: var(--color-white);
+}
+
+.about-me__img-wrapper {
+  width: 200px;
+}
+
+.about-me__img-wrapper img {
+  width: 100%;
+  border-radius: 10px;
 }
 
 /* footer */
