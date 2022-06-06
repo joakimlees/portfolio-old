@@ -15,25 +15,30 @@ body {
 
 /* font-family */
 
-.poppins,
-h3 {
-  font-family: var(--text-heading);
+h1,
+h2,
+h3,
+h4,
+.cta {
+  font-family: var(--text-heading), verdana, arial, "nirmala ui";
 }
 
-.a-pro {
-  font-family: var(--text-paragraph);
+p,
+.link,
+.about-me__text,
+.about-me__text h3,
+.header-line3 {
+  font-family: var(--text-paragraph), Cambria, Cochin, Georgia;
 }
 
-.white {
+/* colors */
+
+h1,
+h2,
+h3,
+h4,
+p {
   color: var(--color-white);
-}
-
-.yellow {
-  color: var(--color-yellow);
-}
-
-.coral {
-  color: var(--color-coral);
 }
 
 /* top navigation */
@@ -118,48 +123,16 @@ h3 {
   width: 100%;
 }
 
-/* top header */
+/* main index */
 
-.home-header {
-  background-color: var(--color-purple);
-  margin-top: 15px;
-  padding: 10px 0px 25px;
-}
-
-.home-header h1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.main-home {
+  background-color: var(--color-dark);
+  flex-grow: 1;
+  max-width: 800px;
   margin: 0px auto;
-  max-width: 300px;
 }
 
-.header-line1 {
-  font-weight: 200;
-  font-size: 1.75rem;
-  text-align: start;
-  align-self: flex-start;
-  margin-bottom: -5px;
-}
-
-.header-line2 {
-  font-weight: 700;
-  font-size: 2.3rem;
-}
-
-.header-line3 {
-  font-size: 1rem;
-  font-weight: 100;
-  align-self: flex-end;
-  margin: -15px 40px 0px 0px;
-}
-
-.header__cta-wrapper {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
+/* links and buttons */
 
 .cta {
   font-weight: 400;
@@ -184,72 +157,6 @@ h3 {
   background-color: var(--color-yellow);
 }
 
-/* main index */
-
-.main-home {
-  background-color: var(--color-dark);
-  flex-grow: 1;
-  max-width: 800px;
-  margin: 0px auto;
-}
-
-/* about me section*/
-
-.home__about-me,
-.home__projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 15px 15px 75px;
-}
-
-h2 {
-  color: var(--color-white);
-}
-
-.about-me__text {
-  display: flex;
-  flex-direction: column;
-}
-
-.about-me__text h3 {
-  color: var(--color-white);
-  margin: 15px 0px 5px 0px;
-}
-
-.about-me__img-wrapper {
-  width: 200px;
-}
-
-.about-me__img-wrapper img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.about-me__text ul li span {
-  font-weight: 600;
-  color: var(--color-coral);
-}
-
-.about-me__text ul {
-  align-self: flex-start;
-  margin: 0px 0px 15px;
-  padding: 0px;
-}
-
-.about-me__text ul li {
-  text-align: start;
-  list-style: none;
-  color: var(--color-white);
-}
-
-.quote {
-  color: var(--color-coral);
-  font-weight: 100;
-  text-align: center;
-  font-style: italic;
-}
-
 .link {
   color: var(--color-yellow);
   text-decoration: none;
@@ -257,52 +164,6 @@ h2 {
 
 .link:hover {
   text-decoration: underline;
-}
-
-/* cards */
-
-.cards {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.card h3 {
-  color: var(--color-white);
-}
-
-.card__link-wrapper {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.card a {
-  color: var(--color-yellow);
-  font-family: var(--text-paragraph);
-  text-decoration: none;
-  margin-top: 15px;
-}
-
-.card a:hover {
-  text-decoration: underline;
-}
-
-.card {
-  text-align: center;
-  background-color: var(--color-purple);
-  padding: 15px;
-  border-radius: 10px;
-}
-
-.card__img-wrapper {
-}
-
-.card img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  object-position: top;
 }
 
 /* footer */
@@ -327,14 +188,4 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 15px;
-}
-
-h1 {
-  color: var(--color-white);
-  font-family: var(--text-heading), verdana, arial, "nirmala ui";
-}
-
-p {
-  color: var(--color-white);
-  font-family: var(--text-paragraph), Cambria, Cochin, Georgia;
 }
